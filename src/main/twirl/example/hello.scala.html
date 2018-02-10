@@ -1,0 +1,11 @@
+@import example.Album
+@(items: Seq[Album])
+
+{
+  "items" : [
+    @for(index <- 0 until items.length) {
+      { "name": "@items(index).name" }
+      @if(index < items.length - 1) { , }
+    }
+  ]
+}
