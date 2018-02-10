@@ -1,4 +1,4 @@
-package example
+package music
 
 case class Album(name: String)
 
@@ -7,7 +7,7 @@ object Main {
 
     val albums = (1 to 10).map(x => Album(s"Album $x"))
 
-    val output = example.html.hello(albums)
+    val output = music.html.albums(albums)
 
     println(output)
   }
