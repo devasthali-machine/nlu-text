@@ -11,14 +11,14 @@
         {
             "artist": "@albums(index).artist.toUpperCase",
             "album" : "@albums(index).album",
-            "releasedOn": "@albums(index).releasedOn"
+            "releasedOn": @formatDate(albums(index))
         }
         @if(index < albums.length - 1) { , }
     }
   ]
 }
 
-@formatDate(date: String) = @{
-  if (date.nonEmpty) LocalDateTime.parse(date).format(DateTimeFormatter.ofPattern("MM/DD/YYYY"))
+@formatDate(date: Album) = @{
+  if (date.releasedOn.nonEmpty) LocalDateTime.parse(date.releasedOn).format(DateTimeFormatter.ofPattern("MM/DD/YYYY"))
   else ""
 }

@@ -11,48 +11,70 @@ case 1: non-empty data
 
 ```json
 {
-  "displayData": "You have 10 albums available from band Porcupine Tree",
-  "albums": [
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 1"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 2"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 3"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 4"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 5"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 6"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 7"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 8"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 9"
-    },
-    {
-      "artist": "PORCUPINE TREE",
-      "album": "album 10"
-    }
+  "displayData": "You have 10 albums available from band Porcupine Tree; see the cards below",
+  "albums" : [
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 1",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 2",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 3",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 4",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 5",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 6",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 7",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 8",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 9",
+            "releasedOn": 02\/44\/2018
+        },
+
+        {
+            "artist": "PORCUPINE TREE",
+            "album" : "album 10",
+            "releasedOn": 02\/44\/2018
+        }
+
+
   ]
 }
 ```
