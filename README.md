@@ -1,44 +1,68 @@
 
-expected result
-------------
+applying data to template
+-------------------------
 
 ```
 sbt run
 ```
 
+case 1: non-empty data
+----------------------
+
 ```json
 {
-  "items": [
+  "displayData": "You have 10 albums available from band Porcupine Tree",
+  "albums": [
     {
-      "name": "Album 1"
+      "artist": "PORCUPINE TREE",
+      "album": "album 1"
     },
     {
-      "name": "Album 2"
+      "artist": "PORCUPINE TREE",
+      "album": "album 2"
     },
     {
-      "name": "Album 3"
+      "artist": "PORCUPINE TREE",
+      "album": "album 3"
     },
     {
-      "name": "Album 4"
+      "artist": "PORCUPINE TREE",
+      "album": "album 4"
     },
     {
-      "name": "Album 5"
+      "artist": "PORCUPINE TREE",
+      "album": "album 5"
     },
     {
-      "name": "Album 6"
+      "artist": "PORCUPINE TREE",
+      "album": "album 6"
     },
     {
-      "name": "Album 7"
+      "artist": "PORCUPINE TREE",
+      "album": "album 7"
     },
     {
-      "name": "Album 8"
+      "artist": "PORCUPINE TREE",
+      "album": "album 8"
     },
     {
-      "name": "Album 9"
+      "artist": "PORCUPINE TREE",
+      "album": "album 9"
     },
     {
-      "name": "Album 10"
+      "artist": "PORCUPINE TREE",
+      "album": "album 10"
     }
   ]
+}
+```
+
+case 2: empty data
+------------------
+
+```json
+{
+  "displayData": "There are no albums available.",
+  "albums" : []
 }
 ```
